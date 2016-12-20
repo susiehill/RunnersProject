@@ -1,3 +1,41 @@
 // Place all the styles related to the Runners controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.Profile {
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  vertical-align: middle;
+  // text-align: center;
+  margin: 15px;
+}
+
+.photo {
+  width: 300px;
+  height: 450px;
+    margin-left: 50px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 24pt;
+  // margin: 1px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+p {
+  margin: 2px;
+
+}
+
+
+.sq {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+}

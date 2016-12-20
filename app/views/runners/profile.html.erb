@@ -1,15 +1,40 @@
-<div class="photo">
-  <fieldset>
 
-  </fieldset>
-  <input action="/runners/edit" type="submit" value="Edit Profile">
-</div><br>
-<h2><a href="/leaderboard">Leaderboard</a></h2>
-<div>
-  <h2><%= @runner.first_name%></h2>
-  <h2><%= @runner.last_name%></h2>
-  Shoe Size: <span> <%=@runner.shoe_size%> </span>
-  <p> Gender:<%=@runner.gender%> </p>
-  <p> Email:<%=@runner.email%> </p>
-</div><br>
-<a href="/logout">Logout</a>
+
+<h2></h2><a href="/runners/edit"> Edit Profile</a> | <a href="/leaderboard">Leaderboard</a> | <a href="/logout">Logout</a>
+<hr>
+
+<div class="Profile">
+
+
+    <div>
+      <fieldset class="photo">
+        <!-- photo goes here -->
+      </fieldset>
+    </div>
+
+    <div>
+      <h2><%= @runner.first_name%></h2>
+      <h2><%= @runner.last_name%></h2>
+      <p> Gender: <%=@runner.gender%> </p>
+      <p> Email: <%=@runner.email%> </p>
+    <fieldset>
+      <span> <%=@runner.shoe_size%> </span><br>
+      Shoe Size
+    </fieldset>
+
+    </div><br>
+
+</div> <!-- profile -->
+<hr>
+
+
+<!-- shoe gallery -->
+<h2>Shoe Arsenal </h2>
+<div class="sq">
+</div>
+<div class="sq">
+</div>
+<div class="sq">
+</div>
+<div class="sq">
+</div>
