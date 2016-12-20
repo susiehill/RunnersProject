@@ -10,7 +10,11 @@ class SessionsController < ApplicationController
     r = Runner.find_by_email(params[:email])
       if ( r && r.authenticate(params[:password]))
         session[:user_id] = r.id
+<<<<<<< HEAD
         redirect_to "/runners/#{r.id}"
+=======
+        redirect_to "/sessions/new"
+>>>>>>> master
       else
         redirect_to "/"
       end
