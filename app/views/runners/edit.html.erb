@@ -1,0 +1,15 @@
+<%%>
+<div class="photo">
+  <fieldset>
+
+  </fieldset>
+  <input action="/runners/edit" type="submit" value="Edit Profile">
+</div>
+
+<div>
+  <h2>  <input type="text" value="<%=@runner.first_name%>"> </h2>
+  <h2>  <input type="text" value="<%=@runner.last_name%>"> </h2>
+  <p> Shoe Size: <input type="string" value="<%=@runner.shoe_size%>"> </p>
+  <p> Gender: <input type="string" value="<%=@runner.gender%>"> </p>
+  <p> Email:<input type="text" value="<%=@runner.email%>"> </p>
+</div>
