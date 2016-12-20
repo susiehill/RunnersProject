@@ -4,9 +4,7 @@ class RunnersController < ApplicationController
     @runner = Runner.find(params[:id])
   end
   def edit
-
   end
-=======
->>>>>>> master
+
 
 end
