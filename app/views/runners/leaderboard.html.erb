@@ -1,0 +1,19 @@
+<table>
+	<h1>Leaderboard</h1>
+	<thead>
+	<tr>
+		
+		<th>Name</th>
+		<th>Shoe Size</th>
+	</tr>
+	</thead>
+	<tbody>
+		<% @runner.each do |r| %>
+		<tr>
+			<td><%=r.first_name%> <%=r.last_name%></td>
+			<td><%=r.shoe_size%></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table><br>
+	<%=link_to 'Go Back', url_for(:back)%>

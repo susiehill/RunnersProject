@@ -3,12 +3,13 @@
 
   </fieldset>
   <input action="/runners/edit" type="submit" value="Edit Profile">
-</div>
-
+</div><br>
+<h2><a href="/leaderboard">Leaderboard</a></h2>
 <div>
   <h2><%= @runner.first_name%></h2>
   <h2><%= @runner.last_name%></h2>
   Shoe Size: <span> <%=@runner.shoe_size%> </span>
   <p> Gender:<%=@runner.gender%> </p>
   <p> Email:<%=@runner.email%> </p>
-</div>
+</div><br>
+<a href="/logout">Logout</a>
