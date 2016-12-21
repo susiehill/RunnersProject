@@ -1,4 +1,4 @@
-<div>
+  <div>
   <h1>Register Here:</h1>
   <form action="/create" method="post">
   <input type="hidden" name="authenticity_token" value="<%=form_authenticity_token%>">
@@ -11,9 +11,9 @@
   <p> <label>Password:
   <input type="text" name="password"></label> </p>
   <p> <label>Shoe Size:
-  <input type="float" name="shoe_size"></label> </p>
+  <input type="number" name="shoe_size"></label> </p>
   <p> <label>Gender
-  <input type="string" name="gender"></label> </p>
+  <input type="text" name="gender"></label> </p>
   <input type="submit" value="Register">
 </form>
 </div>
@@ -27,3 +27,6 @@
   <input type="submit" value="Submit">
 </form>
 </div>
+
+
+
